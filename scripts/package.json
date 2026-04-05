@@ -1,0 +1,12 @@
+{
+  "name": "ivs-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scripts for IVS contract management",
+  "scripts": {
+    "authorize": "node authorize-user.mjs"
+  },
+  "dependencies": {
+    "ethers": "^6.15.0"
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "abi": [
+    {
+      "inputs": [{ "internalType": "address", "name": "initialAdmin", "type": "address" }],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "ADMIN_ROLE",
+      "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SCORE_POINTS_RECENT",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SCORE_POINTS_STALE",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SCORE_RECENCY_PERIOD",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SCORE_WEIGHT_RELIABILITY",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SCORE_WEIGHT_TRANSPARENCY",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "SCORE_WEIGHT_USAGE",
+      "outputs": [{ "internalType": "uint256", "name": "", "type": "uint256" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "bytes32", "name": "_uniqueId", "type": "bytes32" },
+        { "internalType": "bytes32", "name": "_emailHash", "type": "bytes32" }
+      ],
+      "name": "adminVerifyEmailHash",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "_userAddress", "type": "address" }],
+      "name": "authorizeUser",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "calculateScore",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMyEmailHash",
+      "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMyEncryptedEmail",
+      "outputs": [{ "internalType": "bytes", "name": "", "type": "bytes" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "getMyUniqueId",
+      "outputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "bytes32", "name": "role", "type": "bytes32" },
+        { "internalType": "address", "name": "account", "type": "address" }
+      ],
+      "name": "hasRole",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "recordVerificationActivity",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "address", "name": "_userAddress", "type": "address" }],
+      "name": "revokeAuthorization",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+      "name": "scores",
+      "outputs": [
+        { "internalType": "uint256", "name": "usageFrequency", "type": "uint256" },
+        { "internalType": "uint256", "name": "issuerReliability", "type": "uint256" },
+        { "internalType": "uint256", "name": "lastVerification", "type": "uint256" },
+        { "internalType": "uint256", "name": "transparencyScore", "type": "uint256" },
+        { "internalType": "uint256", "name": "totalScore", "type": "uint256" }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        { "internalType": "bytes32", "name": "_uniqueId", "type": "bytes32" },
+        { "internalType": "uint256", "name": "_reliability", "type": "uint256" }
+      ],
+      "name": "setIssuerReliability",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "string", "name": "_action", "type": "string" }],
+      "name": "transact",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "string", "name": "_email", "type": "string" }],
+      "name": "updateProfileHash",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "bytes", "name": "_encryptedEmail", "type": "bytes" }],
+      "name": "updateProfileEncrypted",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "bytes32", "name": "", "type": "bytes32" }],
+      "name": "userAddressesByUniqueId",
+      "outputs": [{ "internalType": "address", "name": "", "type": "address" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "string", "name": "_email", "type": "string" }],
+      "name": "verifyEmailOwnership",
+      "outputs": [{ "internalType": "bool", "name": "", "type": "bool" }],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "bytes32", "name": "_uniqueId", "type": "bytes32" }],
+      "name": "verifyIdentityOnChain",
+      "outputs": [
+        { "internalType": "bool", "name": "isAuthorized", "type": "bool" },
+        { "internalType": "uint256", "name": "lastVerification", "type": "uint256" },
+        { "internalType": "uint256", "name": "totalScore", "type": "uint256" }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "viewMyInfo",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" },
+            { "internalType": "bytes32", "name": "emailHash", "type": "bytes32" },
+            { "internalType": "bool", "name": "hasEmail", "type": "bool" },
+            { "internalType": "bool", "name": "isAuthorized", "type": "bool" },
+            {
+              "components": [
+                { "internalType": "uint256", "name": "timestamp", "type": "uint256" },
+                { "internalType": "string", "name": "action", "type": "string" }
+              ],
+              "internalType": "struct SecureIdentityVerificationSystem.Transaction[]",
+              "name": "transactions",
+              "type": "tuple[]"
+            }
+          ],
+          "internalType": "struct SecureIdentityVerificationSystem.UserInfo",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "viewMyTransactions",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "timestamp", "type": "uint256" },
+            { "internalType": "string", "name": "action", "type": "string" }
+          ],
+          "internalType": "struct SecureIdentityVerificationSystem.Transaction[]",
+          "name": "",
+          "type": "tuple[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [{ "internalType": "bytes32", "name": "_uniqueId", "type": "bytes32" }],
+      "name": "viewScore",
+      "outputs": [
+        {
+          "components": [
+            { "internalType": "uint256", "name": "usageFrequency", "type": "uint256" },
+            { "internalType": "uint256", "name": "issuerReliability", "type": "uint256" },
+            { "internalType": "uint256", "name": "lastVerification", "type": "uint256" },
+            { "internalType": "uint256", "name": "transparencyScore", "type": "uint256" },
+            { "internalType": "uint256", "name": "totalScore", "type": "uint256" }
+          ],
+          "internalType": "struct SecureIdentityVerificationSystem.IdentityScore",
+          "name": "",
+          "type": "tuple"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" },
+        { "indexed": false, "internalType": "bytes32", "name": "emailHash", "type": "bytes32" }
+      ],
+      "name": "EmailVerified",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" },
+        { "indexed": false, "internalType": "bool", "name": "isAuthorized", "type": "bool" },
+        { "indexed": false, "internalType": "uint256", "name": "lastVerification", "type": "uint256" },
+        { "indexed": false, "internalType": "uint256", "name": "totalScore", "type": "uint256" }
+      ],
+      "name": "IdentityVerified",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "userAddress", "type": "address" },
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" }
+      ],
+      "name": "ProfileUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" },
+        { "indexed": false, "internalType": "uint256", "name": "newTotalScore", "type": "uint256" }
+      ],
+      "name": "ScoreUpdated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "userAddress", "type": "address" },
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" },
+        { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" },
+        { "indexed": false, "internalType": "string", "name": "action", "type": "string" }
+      ],
+      "name": "TransactionAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "userAddress", "type": "address" },
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" }
+      ],
+      "name": "UserAuthorized",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "address", "name": "userAddress", "type": "address" },
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" }
+      ],
+      "name": "UserAuthorizationRevoked",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        { "indexed": true, "internalType": "bytes32", "name": "uniqueId", "type": "bytes32" },
+        { "indexed": false, "internalType": "uint256", "name": "timestamp", "type": "uint256" }
+      ],
+      "name": "VerificationActivityRecorded",
+      "type": "event"
+    }
+  ]
+}

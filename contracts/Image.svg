@@ -1,0 +1,219 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="474pt" height="1342pt" viewBox="0.00 0.00 474.08 1342.00">
+<g id="graph0" class="graph" transform="translate(171.0996612041774,1398.8914159535104) scale(0.9810006627269044)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-1338 470.08,-1338 470.08,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterSecureIdentityVerificationSystem">
+
+<path fill="#445773" stroke="#445773" d="M20,-8C20,-8 446.08,-8 446.08,-8 452.08,-8 458.08,-14 458.08,-20 458.08,-20 458.08,-1177 458.08,-1177 458.08,-1183 452.08,-1189 446.08,-1189 446.08,-1189 20,-1189 20,-1189 14,-1189 8,-1183 8,-1177 8,-1177 8,-20 8,-20 8,-14 14,-8 20,-8" style=""/>
+<text text-anchor="middle" x="233.04" y="-1172.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SecureIdentityVerificationSystem</text>
+</g>
+<g id="clust2" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="57,-1197 57,-1326 400.04,-1326 400.04,-1197 57,-1197" style=""/>
+<text text-anchor="middle" x="228.52" y="-1309.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- SecureIdentityVerificationSystem.onlyAdmin -->
+<g id="node1" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.onlyAdmin">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="189.62,-1126.54 189.62,-1141.46 154.7,-1152 105.3,-1152 70.38,-1141.46 70.38,-1126.54 105.3,-1116 154.7,-1116 189.62,-1126.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="193.63,-1123.57 193.63,-1144.43 155.29,-1156 104.71,-1156 66.37,-1144.43 66.37,-1123.57 104.71,-1112 155.29,-1112 193.63,-1123.57" style=""/>
+<text text-anchor="middle" x="130" y="-1129.8" font-family="Times,serif" font-size="14.00" style="">onlyAdmin</text>
+</g>
+<!-- SecureIdentityVerificationSystem.hasRole -->
+<g id="node23" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.hasRole">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="365.04" cy="-1134" rx="42.3" ry="18" style=""/>
+<text text-anchor="middle" x="365.04" y="-1129.8" font-family="Times,serif" font-size="14.00" style="">hasRole</text>
+</g>
+<!-- SecureIdentityVerificationSystem.onlyAdmin&#45;&gt;SecureIdentityVerificationSystem.hasRole -->
+<g id="edge1" class="edge" data-name="SecureIdentityVerificationSystem.onlyAdmin-&gt;SecureIdentityVerificationSystem.hasRole">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M194.99,-1134C230.71,-1134 274.77,-1134 308.95,-1134" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="308.5,-1137.5 318.5,-1134 308.5,-1130.5 308.5,-1137.5" style=""/>
+</g>
+<!-- SecureIdentityVerificationSystem.onlyAuthorizedUser -->
+<g id="node2" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.onlyAuthorizedUser">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="227.08,-1064.54 227.08,-1079.46 170.21,-1090 89.79,-1090 32.92,-1079.46 32.92,-1064.54 89.79,-1054 170.21,-1054 227.08,-1064.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="231.07,-1061.22 231.07,-1082.78 170.58,-1094 89.42,-1094 28.93,-1082.78 28.93,-1061.22 89.42,-1050 170.58,-1050 231.07,-1061.22" style=""/>
+<text text-anchor="middle" x="130" y="-1067.8" font-family="Times,serif" font-size="14.00" style="">onlyAuthorizedUser</text>
+</g>
+<!-- SecureIdentityVerificationSystem.onlyUserWithId -->
+<g id="node3" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.onlyUserWithId">
+
+<polygon fill="#edad56" stroke="#1bc6a6" stroke-width="3" points="209.75,-1002.54 209.75,-1017.46 163.03,-1028 96.97,-1028 50.25,-1017.46 50.25,-1002.54 96.97,-992 163.03,-992 209.75,-1002.54" style=""/>
+<polygon fill="none" stroke="#1bc6a6" stroke-width="3" points="213.74,-999.35 213.74,-1020.65 163.48,-1032 96.52,-1032 46.25,-1020.65 46.25,-999.35 96.52,-988 163.48,-988 213.74,-999.35" style=""/>
+<text text-anchor="middle" x="130" y="-1005.8" font-family="Times,serif" font-size="14.00" style="">onlyUserWithId</text>
+</g>
+<!-- SecureIdentityVerificationSystem.&lt;Constructor&gt; -->
+<g id="node4" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.&lt;Constructor&gt;">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="130" cy="-952" rx="67.55" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-947.8" font-family="Times,serif" font-size="14.00" style="">&lt;Constructor&gt;</text>
+</g>
+<!-- SecureIdentityVerificationSystem._grantRole -->
+<g id="node24" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem._grantRole">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="365.04" cy="-952" rx="53.89" ry="18" style=""/>
+<text text-anchor="middle" x="365.04" y="-947.8" font-family="Times,serif" font-size="14.00" style="">_grantRole</text>
+</g>
+<!-- SecureIdentityVerificationSystem.&lt;Constructor&gt;&#45;&gt;SecureIdentityVerificationSystem._grantRole -->
+<g id="edge2" class="edge" data-name="SecureIdentityVerificationSystem.&lt;Constructor&gt;-&gt;SecureIdentityVerificationSystem._grantRole">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M195.3,-945.89C227.62,-945.04 266.71,-945.04 299.12,-945.88" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="298.97,-949.37 309.08,-946.18 299.19,-942.38 298.97,-949.37" style=""/>
+</g>
+<!-- SecureIdentityVerificationSystem.&lt;Constructor&gt;&#45;&gt;SecureIdentityVerificationSystem._grantRole -->
+<g id="edge3" class="edge" data-name="SecureIdentityVerificationSystem.&lt;Constructor&gt;-&gt;SecureIdentityVerificationSystem._grantRole">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M195.3,-958.11C227.62,-958.96 266.71,-958.96 299.12,-958.12" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="299.19,-961.62 309.08,-957.82 298.97,-954.63 299.19,-961.62" style=""/>
+</g>
+<!-- SecureIdentityVerificationSystem.authorizeUser -->
+<g id="node5" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.authorizeUser">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-898" rx="65.39" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-893.8" font-family="Times,serif" font-size="14.00" style="">authorizeUser</text>
+</g>
+<!-- SecureIdentityVerificationSystem._generateUniqueId -->
+<g id="node22" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem._generateUniqueId">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="365.04" cy="-898" rx="85.08" ry="18" style=""/>
+<text text-anchor="middle" x="365.04" y="-893.8" font-family="Times,serif" font-size="14.00" style="">_generateUniqueId</text>
+</g>
+<!-- SecureIdentityVerificationSystem.authorizeUser&#45;&gt;SecureIdentityVerificationSystem._generateUniqueId -->
+<g id="edge4" class="edge" data-name="SecureIdentityVerificationSystem.authorizeUser-&gt;SecureIdentityVerificationSystem._generateUniqueId">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M196.84,-898C218.31,-898 242.62,-898 265.93,-898" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="265.72,-901.5 275.72,-898 265.72,-894.5 265.72,-901.5" style=""/>
+</g>
+<!-- SecureIdentityVerificationSystem.revokeAuthorization -->
+<g id="node6" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.revokeAuthorization">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-844" rx="90.89" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-839.8" font-family="Times,serif" font-size="14.00" style="">revokeAuthorization</text>
+</g>
+<!-- SecureIdentityVerificationSystem.setIssuerReliability -->
+<g id="node7" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.setIssuerReliability">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-790" rx="85.69" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-785.8" font-family="Times,serif" font-size="14.00" style="">setIssuerReliability</text>
+</g>
+<!-- SecureIdentityVerificationSystem.updateProfileHash -->
+<g id="node8" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.updateProfileHash">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-736" rx="82.81" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-731.8" font-family="Times,serif" font-size="14.00" style="">updateProfileHash</text>
+</g>
+<!-- SecureIdentityVerificationSystem.updateProfileEncrypted -->
+<g id="node9" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.updateProfileEncrypted">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-682" rx="102.99" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-677.8" font-family="Times,serif" font-size="14.00" style="">updateProfileEncrypted</text>
+</g>
+<!-- SecureIdentityVerificationSystem.verifyEmailOwnership -->
+<g id="node10" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.verifyEmailOwnership">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-628" rx="99.57" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-623.8" font-family="Times,serif" font-size="14.00" style="">verifyEmailOwnership</text>
+</g>
+<!-- SecureIdentityVerificationSystem.adminVerifyEmailHash -->
+<g id="node11" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.adminVerifyEmailHash">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-574" rx="103.07" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-569.8" font-family="Times,serif" font-size="14.00" style="">adminVerifyEmailHash</text>
+</g>
+<!-- SecureIdentityVerificationSystem.transact -->
+<g id="node12" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.transact">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-520" rx="41.13" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-515.8" font-family="Times,serif" font-size="14.00" style="">transact</text>
+</g>
+<!-- SecureIdentityVerificationSystem.recordVerificationActivity -->
+<g id="node13" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.recordVerificationActivity">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-466" rx="114" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-461.8" font-family="Times,serif" font-size="14.00" style="">recordVerificationActivity</text>
+</g>
+<!-- SecureIdentityVerificationSystem.calculateScore -->
+<g id="node14" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.calculateScore">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-412" rx="67.17" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-407.8" font-family="Times,serif" font-size="14.00" style="">calculateScore</text>
+</g>
+<!-- SecureIdentityVerificationSystem.verifyIdentityOnChain -->
+<g id="node15" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.verifyIdentityOnChain">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-358" rx="99" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-353.8" font-family="Times,serif" font-size="14.00" style="">verifyIdentityOnChain</text>
+</g>
+<!-- SecureIdentityVerificationSystem.viewScore -->
+<g id="node16" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.viewScore">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-304" rx="51.59" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-299.8" font-family="Times,serif" font-size="14.00" style="">viewScore</text>
+</g>
+<!-- SecureIdentityVerificationSystem.viewMyInfo -->
+<g id="node17" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.viewMyInfo">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-250" rx="59.12" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-245.8" font-family="Times,serif" font-size="14.00" style="">viewMyInfo</text>
+</g>
+<!-- SecureIdentityVerificationSystem.getMyEmailHash -->
+<g id="node18" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.getMyEmailHash">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-196" rx="79.32" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-191.8" font-family="Times,serif" font-size="14.00" style="">getMyEmailHash</text>
+</g>
+<!-- SecureIdentityVerificationSystem.getMyEncryptedEmail -->
+<g id="node19" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.getMyEncryptedEmail">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-142" rx="98.99" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-137.8" font-family="Times,serif" font-size="14.00" style="">getMyEncryptedEmail</text>
+</g>
+<!-- SecureIdentityVerificationSystem.viewMyTransactions -->
+<g id="node20" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.viewMyTransactions">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-88" rx="92.63" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-83.8" font-family="Times,serif" font-size="14.00" style="">viewMyTransactions</text>
+</g>
+<!-- SecureIdentityVerificationSystem.getMyUniqueId -->
+<g id="node21" class="node" pointer-events="visible" data-name="SecureIdentityVerificationSystem.getMyUniqueId">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="130" cy="-34" rx="72.94" ry="18" style=""/>
+<text text-anchor="middle" x="130" y="-29.8" font-family="Times,serif" font-size="14.00" style="">getMyUniqueId</text>
+</g>
+<!-- key -->
+<g id="node25" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="195,-1293 65,-1293 65,-1205 195,-1205 195,-1293" style=""/>
+<text text-anchor="start" x="114.64" y="-1274.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="110.75" y="-1254.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="88.2" y="-1234.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="74.6" y="-1214.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node26" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="392.04,-1293 338.04,-1293 338.04,-1205 392.04,-1205 392.04,-1293" style=""/>
+<text text-anchor="start" x="355.04" y="-1274.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="355.04" y="-1254.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="353.04,-1229 353.04,-1249 378.04,-1249 378.04,-1229 353.04,-1229" style=""/>
+<text text-anchor="start" x="355.04" y="-1234.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="355.04,-1211 355.04,-1227 376.04,-1227 376.04,-1211 355.04,-1211" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge5" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M188,-1279C256.49,-1279 276.72,-1279 339.37,-1279" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="339.01,-1282.5 349.01,-1279 339.01,-1275.5 339.01,-1282.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge6" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M188,-1259C256.49,-1259 276.72,-1259 339.37,-1259" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="339.01,-1262.5 349.01,-1259 339.01,-1255.5 339.01,-1262.5" style=""/>
+</g>
+</g>
+</svg>
