@@ -2,6 +2,14 @@
 
 A modern web application frontend for a blockchain-based Identity Verification System that manages user authorization, identity scoring, and verification activities on Ethereum.
 
+## 🔗 System Architecture & Repositories
+
+This project follows a modular architecture with separate repositories for blockchain/frontend and machine learning components:
+
+- **Blockchain + Frontend (This Repo)**: Smart contract integration, identity management, and user interface  
+- **ML Fraud Detection Pipeline**: https://github.com/Pushkar-Dangwal/Isolation-model  
+  - Implements Deep Isolation Forest and LightGBM for anomaly detection and fraud risk classification
+
 ## 🚀 Features
 
 ### Core Functionality
